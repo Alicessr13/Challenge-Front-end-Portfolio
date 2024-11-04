@@ -8,8 +8,16 @@
     font-size: 62.5%;
 }
 
-button:disabled {
-    background-color: gray;
-    color: white;
-    cursor: not-allowed;
+button:disabled {}
+
+body {
+    /*background: linear-gradient(0deg, #EABFCB, #C191A1, #A4508B, #9c4281);*/
+    background-color: #EABFCB;
+    animation: gradientMove 15s ease infinite;
+    height: 100vh;
+    width: 30rem;
+    width: 80%;
+    margin: auto;
 }
+
+header {}

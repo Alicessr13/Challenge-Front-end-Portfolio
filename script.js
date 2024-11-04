@@ -51,6 +51,20 @@ function validaCampos() {
     }
 }
 
+function enviarEmail() {
+    let conteudoNome = nome.value;
+    let conteudoAssunto = assunto.value;
+    let conteudoEmail = email.value;
+    let conteudoMensagem = mensagem.value;
+
+    const mailtoLink = `mailto:alicessr12@gmail.com?subject=${encodeURIComponent(conteudoAssunto)}&body=${encodeURIComponent("Nome: " + conteudoNome + "\nEmail: " + conteudoEmail + "\n\nMensagem:\n" + conteudoMensagem)}`;
+
+    window.location.href = mailtoLink;
+
+    return false; // Impede o envio do formulário de forma tradicional
+}
+
+
 nome.addEventListener("input", atualizaBotao);
 email.addEventListener("input", atualizaBotao);
 assunto.addEventListener("input", atualizaBotao);
