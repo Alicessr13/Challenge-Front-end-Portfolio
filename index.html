@@ -5,46 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Alice</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Pirata+One&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <section id="navegacao">
-            <h2>Alice Stephanie Soares Ribeiro</h2>
+            <div class="cat-name">
+                <img src="./assets/cat2-unscreen.gif" alt="gato em pixel pulando" class="cat-gif">
+                <h2>Alice Stephanie Soares Ribeiro</h2>
+            </div>
 
             <div class="separacao">
                 <nav>
-                    <a href="#sobre-mim">Sobre mim</a>
+                    <img src="./assets/cat6_processed.jpg" alt="" class="icon">
+                    <a href="#sobre-mim">Sobre mim </a>
                     <a href="#skills">Skills</a>
                     <a href="#hobbies">Hobbies</a>
                     <a href="#formacao">Formação</a>
                     <a href="#projetos">Projetos</a>
+                    <img src="./assets/cat5_processed.jpg" alt="" class="icon">
                 </nav>
 
-                <h2>alicessr12@gmal.com</h2>
+                <h2>alicessr12@gmail.com</h2>
             </div>
         </section>
 
-        <section>
-            <h1>
-                Olá, meu nome é Alice Stephanie Soares Ribeiro e construo páginas web
-            </h1>
-            <p>
-                Sou estudante de ciência da computação na Unifacvest, conclui o curso full stack da DIO e
-                atualmente estou participando no projeto Oracle ONE na Alura
-            </p>
+        <section id="apresentacao">
+            <div class="apresentacaoTexto">
+                <h1>
+                    Olá, meu nome é Alice Stephanie Soares Ribeiro e construo páginas web
+                </h1>
+                <p>
+                    Sou estudante de ciência da computação na Unifacvest, conclui o curso full stack da DIO e
+                    atualmente estou participando no projeto Oracle ONE na Alura
+                </p>
 
-            <nav>
-                <a href="https://github.com/Alicessr13">GitHub</a>
-                <a href="https://www.linkedin.com/in/alice-stephanie-soares-ribeiro/">Linkedin</a>
-                <a href="https://www.instagram.com/alicessr1/">Instagram</a>
-                <a href="./assets/CVAliceStephanieSoresRibeiro.pdf">Currículo</a>
-            </nav>
+                <nav>
+                    <a href="https://github.com/Alicessr13">GitHub</a>
+                    <a href="https://www.linkedin.com/in/alice-stephanie-soares-ribeiro/">Linkedin</a>
+                    <a href="https://www.instagram.com/alicessr1/">Instagram</a>
+                    <a href="./assets/CVAliceStephanieSoresRibeiro.pdf">Currículo</a>
+                </nav>
+
+            </div>
 
             <figure>
                 <img src="./assets/profile.jpg"
-                    alt="Imagem de perfil de uma mulher branca com cabelo escuros até os ombros e olhos escuros">
+                    alt="Imagem de perfil de uma mulher branca com cabelo escuros até os ombros e olhos escuros"
+                    class="perfil">
             </figure>
         </section>
 
@@ -53,49 +67,62 @@
     <main>
 
         <section id="sobre-mim">
-            <h3>Sobre mim</h3>
-            <p>
-                Tenho uma boa experiência nas áreas administrativa e de tecnologia, sempre me adaptando e crescendo em
-                cada oportunidade. Comecei minha carreira como estagiária na Caixa Econômica Federal e, em seguida,
-                trabalhei como assistente administrativa na prefeitura de Lages. Hoje, estou na NDD, onde comecei como
-                estagiária e agora sou analista de suporte júnior.
-                Tenho conhecimento em Excel, Word e no atendimento ao público. Minha paixão por informática e
-                programação me levou a cursar Ciência da Computação e aprender sobre HTML, CSS, JavaScript, MySQL e SQL
-                Server.
-                Estou sempre em busca de novas oportunidades na área de programação para aplicar e expandir meus
-                conhecimentos técnicos,
-                ajudando as equipes e projetos em que trabalho a terem sucesso. Valorizo o aprendizado contínuo e busco
-                entregar resultados de qualidade, contribuindo para os projetos e a empresa como um todo.
-            </p>
+            <div class="sobre-mim-container">
+                <h3>Sobre mim</h3>
+                <p>
+                    Tenho sólida experiência nas áreas administrativa e de tecnologia, com uma trajetória de crescimento
+                    e adaptação em cada oportunidade. Iniciei minha carreira como estagiária na Caixa Econômica Federal
+                    e, posteriormente, atuei como assistente administrativa na Prefeitura de Lages. Atualmente, trabalho
+                    na NDD, onde entrei como estagiária e fui promovida a analista de suporte júnior, ampliando meu
+                    conhecimento técnico e habilidade em solucionar problemas complexos.
+                </p>
+                <br>
+                <p>
+                    Minha paixão por tecnologia e desenvolvimento me levou a cursar Ciência da Computação e a aprofundar
+                    meus conhecimentos em HTML, CSS, JavaScript, MySQL, SQL Server, e mais recentemente, no uso de
+                    TypeScript e React em projetos práticos. Além disso, venho investindo no aprimoramento de
+                    habilidades em testes de software e controle de qualidade (QA), com o objetivo de fortalecer minha
+                    atuação em desenvolvimento e validar a qualidade dos produtos com rigor.
+                </p>
+                <br>
+                <p>
+                    Estou em busca de novas oportunidades que me permitam contribuir diretamente com o desenvolvimento
+                    de soluções e testes, garantindo a excelência nos processos de QA e apoiando o sucesso dos projetos
+                    e da empresa. Valorizo o aprendizado contínuo e tenho compromisso em entregar resultados de alta
+                    qualidade em cada desafio.
+                </p>
+            </div>
         </section>
 
         <section id="skills">
 
             <h3>Skills</h3>
 
-            <figure class="skill-block">
-                <figcaption>HTML 5</figcaption>
-            </figure>
+            <div class="skills-icons">
+                <figure class="skill-block">
+                    <figcaption>HTML 5</figcaption>
+                </figure>
 
-            <figure class="skill-block">
-                <figcaption>CSS</figcaption>
-            </figure>
+                <figure class="skill-block">
+                    <figcaption>CSS</figcaption>
+                </figure>
 
-            <figure class="skill-block">
-                <figcaption>JavaScript</figcaption>
-            </figure>
+                <figure class="skill-block">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
 
-            <figure class="skill-block">
-                <figcaption>C#</figcaption>
-            </figure>
+                <figure class="skill-block">
+                    <figcaption>C#</figcaption>
+                </figure>
 
-            <figure class="skill-block">
-                <figcaption>.net</figcaption>
-            </figure>
+                <figure class="skill-block">
+                    <figcaption>.net</figcaption>
+                </figure>
 
-            <figure class="skill-block">
-                <figcaption>SQL</figcaption>
-            </figure>
+                <figure class="skill-block">
+                    <figcaption>SQL</figcaption>
+                </figure>
+            </div>
 
         </section>
 

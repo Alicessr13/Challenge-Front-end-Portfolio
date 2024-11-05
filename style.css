@@ -8,16 +8,140 @@
     font-size: 62.5%;
 }
 
+/* #0B090A  #161A1D  #660708  #A4161A  #BA181B  #E5383B  #B1A7A6  #D3D3D3  #F5F3F4  #FFFFFF*/
+
+a {
+    text-decoration: none;
+    color: #0B090A;
+    font-size: 1.6rem;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #A4161A;
+    font-weight: 600;
+}
+
 button:disabled {}
 
 body {
     /*background: linear-gradient(0deg, #EABFCB, #C191A1, #A4508B, #9c4281);*/
-    background-color: #EABFCB;
+    background-color: #D3D3D3;
     animation: gradientMove 15s ease infinite;
     height: 100vh;
     width: 30rem;
     width: 80%;
     margin: auto;
+    font-family: "IM Fell English", serif;
 }
 
-header {}
+header {
+    margin: 3.5rem 0px 3.5rem 0px;
+
+}
+
+.cat-name {
+    display: flex;
+    align-items: center;
+}
+
+.cat-gif {
+    width: 10rem;
+}
+
+.icon {
+    width: 5rem;
+    height: 4rem;
+}
+
+
+#navegacao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6.6rem;
+}
+
+#navegacao h2 {
+    font-size: 1.6rem;
+}
+
+.separacao {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+nav {
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+
+.perfil {
+    width: 36.8rem;
+    height: 36.8rem;
+    border-radius: 400rem;
+}
+
+#apresentacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacaoTexto {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 72%;
+}
+
+.apresentacaoTexto h1 {
+    font-size: 5.2rem;
+    font-family: "Pirata One", system-ui;
+}
+
+.apresentacaoTexto p {
+    font-size: 2.2rem;
+}
+
+#sobre-mim {
+    background-color: #E5383B;
+    width: 100vw;
+    padding: 2rem 0;
+    margin-left: calc((100% - 100vw) / 2);
+}
+
+.sobre-mim-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    color: white;
+}
+
+.sobre-mim-container h3 {
+    font-family: "Pirata One", system-ui;
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.sobre-mim-container p {
+    font-size: 2rem;
+}
+
+#skills {
+    margin-top: 3.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#skills h3 {
+    font-size: 3.2rem;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    font-size: 1.6rem;
+}
