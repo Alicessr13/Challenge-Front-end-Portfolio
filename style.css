@@ -128,20 +128,155 @@ nav {
     font-size: 2rem;
 }
 
-#skills {
+#skills,
+#hobbies,
+#formacao,
+#projetos {
     margin-top: 3.2rem;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-#skills h3 {
-    font-size: 3.2rem;
+#formacao {
+    background-color: #E5383B;
+    width: 100vw;
+    padding: 2rem 0;
+    margin-left: calc((100% - 100vw) / 2);
+    color: white;
 }
 
-.skills-icons {
+#skills h3,
+#hobbies h3,
+#formacao h3,
+#projetos h3 {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+.skills-icons,
+.hobbies-icons,
+.projetos-info {
     display: flex;
     justify-content: center;
     gap: 1.6rem;
     font-size: 1.6rem;
+}
+
+.formacao-info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.projetos-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto h2 {
+    font-size: 2.5rem;
+}
+
+.projeto p,
+.projeto a {
+    font-size: 2rem;
+}
+
+
+.skill-block,
+.hobbies-block {
+    width: 20%;
+    padding: 1rem;
+}
+
+.skill-block img,
+.hobbies-block img {
+    width: 17.6rem;
+    height: 17.4rem;
+}
+
+#contato {
+    margin-top: 3.2rem;
+    display: flex;
+    gap: 1.6rem;
+    background-color: #E5383B;
+    width: 100vw;
+    padding: 2rem 0;
+    margin-left: calc((100% - 100vw) / 2);
+    color: white;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1.6rem;
+}
+
+.contato-info h1 {
+    font-size: 3.2rem;
+}
+
+.contato-info p {
+    font-size: 1.6rem;
+}
+
+.form-group label {
+    display: none;
+}
+
+#formulario {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-group input {
+    height: 5.6rem;
+    width: 100%;
+    font-size: 1.6rem;
+    border: none;
+    padding: 1rem;
+    font-family: "Pirata One", system-ui;
+}
+
+.form-group textarea {
+    height: 13.3rem;
+    width: 100%;
+
+    border: none;
+    padding: 1rem;
+    font-family: "Pirata One", system-ui;
+    font-size: 1.6rem;
+}
+
+
+#button-form {
+    height: 5.1rem;
+    width: 16.5rem;
+    background-color: #660708;
+    color: #FFFFFF;
+    border: none;
+    font-family: "Pirata One", system-ui;
+    font-size: 1.6rem;
+}
+
+#button-form:disabled {
+    background-color: #635454;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 10.2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
